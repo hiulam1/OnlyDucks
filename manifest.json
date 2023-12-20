@@ -3,7 +3,7 @@
   "name": "OnlyDucks",
   "description": "This does absolutely nothing but turn images on your current page into ducks",
   "version": "1.0",
-  "permissions": ["activeTab", "tabs"],
+  "permissions": ["tabs"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
