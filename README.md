@@ -1,6 +1,8 @@
 # OnlyDucks
 A chrome extension that turns images on the active window into images/gif of ducks.
 Available on Chrome Web Store soon (pending review).
+Blog post on how I learnt to build this chrome extension => https://medium.com/@territse_83702/how-i-built-my-first-chrome-extension-in-just-a-day-using-chatgpt-0dabb6ce2acc
+
 
 ## Installation and Setup
 1. Download the zip file on the master branch and unzip the folder.
