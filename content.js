@@ -1,10 +1,17 @@
 console.log("hello");
 let isDuckMode = false;
 let duckCount = 0;
-let elements = document.getElementsByTagName("img");
-duckCount = elements.length;
-console.log(duckCount);
-let originalSrc = [];
+let elements;
+let originalSrc; // Remove duplicate declaration
+
+window.onload = function () {
+  originalSrc = [];
+  isDuckMode = false;
+  elements = document.getElementsByTagName("img");
+  duckCount = elements.length;
+  console.log(duckCount);
+};
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "quack") {
     if (!isDuckMode) {
